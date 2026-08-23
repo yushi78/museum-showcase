@@ -1,0 +1,26 @@
+# ---- 依赖 ----
+node_modules/
+
+# ---- 外部模型仓库 clone（宇树官方 URDF/MJCF/ROS，约 240MB）----
+tools/external/
+
+# ---- 运行时探测 / 临时 ----
+.probe/
+.shots/
+*.log
+
+# ---- 大体积非运行资源（可随时重新生成/下载）----
+# 参考图片（46MB，仅建模考据用，不影响站点运行）
+tools/refs/img/
+# 截图（开发期视觉对比用）
+tools/shots/
+# Blender 生成输出（贴图等，由 texgen.py 重新生成）
+tools/blender/out/
+
+# ---- 临时诊断脚本 ----
+tools/tmp_*.py
+tools/_dbg.mjs
+
+# ---- 系统文件 ----
+.DS_Store
+Thumbs.db

@@ -1,0 +1,86 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>GLB 浏览器导出器</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 24px; background: #f7f7f7; }
+  #log { background: #111; color: #0f0; padding: 16px; border-radius: 8px; font-family: monospace; height: 360px; overflow: auto; white-space: pre-wrap; }
+  button { padding: 10px 18px; margin: 8px 8px 0 0; border: 0; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; }
+</style>
+<h1>浏览器内 GLB 导出器（Proof of Concept）</h1>
+<button id="run">导出测试贴图立方体</button>
+<div id="log"></div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "/vendor/three.module.js",
+    "three/addons/": "/vendor/jsm/"
+  }
+}
+</script>
+
+<script type="module">
+async function main() {
+  console.log('module start');
+  const THREE = await import('three');
+  console.log('three imported');
+  const { GLTFExporter } = await import('three/addons/exporters/GLTFExporter.js');
+  console.log('exporter imported');
+
+  function log(msg) {
+  const el = document.getElementById('log');
+  el.textContent += msg + '\n';
+  el.scrollTop = el.scrollHeight;
+}
+
+async function upload(id, arrayBuffer) {
+  const res = await fetch('/upload/' + id, {
+    method: 'POST',
+    headers: { 'Content-Type': 'model/gltf-binary' },
+    body: arrayBuffer,
+  });
+  const json = await res.json();
+  log(JSON.stringify(json));
+  return json;
+}
+
+async function makeTexturedBox() {
+  // 加载甲骨纹理
+  const img = new Image();
+  img.src = '/refs/oracle-bone-0-texture.jpg';
+  await new Promise((res, rej) => { img.onload = res; img.onerror = rej; });
+  const tex = new THREE.CanvasTexture(img);
+  tex.colorSpace = THREE.SRGBColorSpace;
+  tex.userData.mimeType = 'image/jpeg';
+
+  const scene = new THREE.Scene();
+  const geo = new THREE.BoxGeometry(1.2, 0.9, 0.06);
+  const mat = new THREE.MeshStandardMaterial({ map: tex, roughness: 0.82, metalness: 0.0 });
+  const mesh = new THREE.Mesh(geo, mat);
+  mesh.castShadow = true; mesh.receiveShadow = true;
+  scene.add(mesh);
+
+  const exporter = new GLTFExporter();
+  const glb = await exporter.parseAsync(scene, { binary: true });
+  return glb;
+}
+
+window.exportModel = async () => {
+  try {
+    log('构建贴图立方体...');
+    const glb = await makeTexturedBox();
+    log('导出 GLB 大小: ' + (glb.byteLength / 1024).toFixed(1) + ' KB');
+    const r = await upload('poc-textured-box', glb);
+    log(r.ok ? '✓ 上传成功' : '✗ 上传失败');
+    return r;
+  } catch (e) {
+    log('ERROR: ' + e.message);
+    console.error(e);
+    throw e;
+  }
+};
+
+document.getElementById('run').addEventListener('click', () => window.exportModel());
+}
+main().catch((e) => { console.error(e); document.getElementById('log').textContent += 'FATAL: ' + e.message + '\n'; });
+</script>

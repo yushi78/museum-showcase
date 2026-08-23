@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <title>最早的马门溪龙（Node 版复现）</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #14141e; overflow: hidden; }
+    #hint { position: absolute; top: 14px; left: 20px; color: #d4af37; font: 14px/1.5 "Microsoft YaHei", sans-serif; z-index: 10; }
+  </style>
+  <script type="importmap">
+    { "imports": { "three": "/vendor/three.module.js" } }
+  </script>
+</head>
+<body>
+  <div id="hint">合川马门溪龙 · 最早版本（Node 代码复现）<br>头骨 = 一个盒子 · 脊椎 = 圆柱 · 肋骨 = 曲线管</div>
+  <script type="module">
+    import * as THREE from 'three';
+    import { OrbitControls } from '/vendor/jsm/controls/OrbitControls.js';
+
+    // ---------- 旧 kit.mjs 的材质 / 几何辅助（内联复刻） ----------
+    const M = {
+      bone: () => new THREE.MeshStandardMaterial({ color: 0xd8ceb4, metalness: 0, roughness: 0.86 }),
+      boneDark: () => new THREE.MeshStandardMaterial({ color: 0xa89778, metalness: 0, roughness: 0.9 }),
+    };
+    function box(w, h, d, material, pos = [0, 0, 0], rot = [0, 0, 0]) {
+      const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), material);
+      m.position.set(...pos); m.rotation.set(...rot); return m;
+    }
+    function cyl(rt, rb, h, material, pos = [0, 0, 0], rot = [0, 0, 0], seg = 24) {
+      const m = new THREE.Mesh(new THREE.CylinderGeometry(rt, rb, h, seg), material);
+      m.position.set(...pos); m.rotation.set(...rot); return m;
+    }
+    function tube(curve, radius, material, seg = 64) {
+      const geo = new THREE.TubeGeometry(curve, seg, radius, 8, false);
+      return new THREE.Mesh(geo, material);
+    }
+
+    // ---------- 最早的马门溪龙函数（_mid.txt 完整复刻） ----------
+    async function mamenchisaurus() {
+      const g = new THREE.Group();
+      const s = 1 / 22000;
+      const u = (mm) => mm * s;
+      const bone = M.bone();
+      const darkBone = M.boneDark();
+      const BACK = 3900, SHZ = 4600, HIPZ = 0;
+
+      // 背椎 12 节
+      const dLen = (SHZ - HIPZ) / 12;
+      for (let i = 0; i < 12; i++) {
+        const z = HIPZ + dLen * (i + 0.5);
+        const r = 300 - Math.abs(i - 6) * 14;
+        g.add(cyl(u(r), u(r), u(dLen * 0.9), bone, [0, u(BACK - 430), z * s], [Math.PI / 2, 0, 0]));
+        g.add(box(u(80), u(600 - Math.abs(i - 6) * 34), u(dLen * 0.45), darkBone, [0, u(BACK - 120), z * s]));
+        const spread = 1 - Math.abs(i - 5) / 9;
+        for (const side of [-1, 1]) {
+          g.add(tube(new THREE.CatmullRomCurve3([
+            new THREE.Vector3(0, u(BACK - 520), z * s),
+            new THREE.Vector3(side * u(880 * spread), u(BACK - 1500), z * s),
+            new THREE.Vector3(side * u(720 * spread), u(BACK - 2500), z * s),
+            new THREE.Vector3(side * u(160 * spread), u(BACK - 3000), z * s),
+          ]), u(52), bone, 16));
+        }
+      }
+
+      // 颈椎 19 节
+      const cerv = [325, 390, 470, 550, 620, 660, 690, 710, 730, 730, 710, 660, 580, 500, 415, 320, 215, 120, 60];
+      let cz = SHZ, cy = BACK - 260, ang = 0.18;
+      for (let i = 0; i < 19; i++) {
+        const L = cerv[i];
+        const r = 290 - i * 11;
+        const dz = Math.cos(ang) * L, dy = Math.sin(ang) * L;
+        const mz = cz + dz / 2, my = cy + dy / 2;
+        const rot = [Math.PI / 2 - ang, 0, 0];
+        g.add(cyl(u(r * 0.72), u(r), u(L * 0.94), bone, [0, u(my), u(mz)], rot));
+        for (const side of [-1, 1]) {
+          g.add(cyl(u(26), u(26), u(L * 2.2), darkBone, [side * u(r * 0.85), u(my - r * 0.55), u(mz)], rot));
+        }
+        g.add(box(u(48), u(r * 0.55), u(L * 0.45), darkBone, [0, u(my + r * 0.82), u(mz)], [-ang, 0, 0]));
+        cz += dz; cy += dy;
+        ang = 0.18 + (i / 18) * 0.34;
+      }
+
+      // 头骨：盒子
+      const skull = box(u(300), u(230), u(620), bone, [0, u(cy + 120), u(cz + 260)], [-0.35, 0, 0]);
+      g.add(skull);
+      g.add(box(u(240), u(90), u(300), darkBone, [0, u(cy + 30), u(cz + 520)], [-0.35, 0, 0]));
+
+      // 荐椎 4 节 + 尾椎 35 节
+      for (let i = 0; i < 4; i++) {
+        g.add(cyl(u(300), u(300), u(260), bone, [0, u(BACK - 430), u(-140 - i * 260)], [Math.PI / 2, 0, 0]));
+      }
+      let tz = -1180, ty = BACK - 450, tAng = 0.06;
+      for (let i = 0; i < 35; i++) {
+        const L = 320 - i * 6;
+        const r = 250 - i * 6.2;
+        const dz = -Math.cos(tAng) * L, dy = -Math.sin(tAng) * L;
+        const mz = tz + dz / 2, my = ty + dy / 2;
+        g.add(cyl(u(Math.max(r * 0.8, 12)), u(Math.max(r, 15)), u(L * 0.94), bone, [0, u(my), u(mz)], [Math.PI / 2 + tAng, 0, 0]));
+        if (i < 18) g.add(box(u(40), u(r * 0.9), u(L * 0.4), darkBone, [0, u(my + r * 0.9), u(mz)], [tAng, 0, 0]));
+        tz += dz; ty += dy;
+        tAng = 0.06 + (i / 34) * 0.16;
+      }
+
+      // 四肢
+      const limb = (z, x, upperR, upperL, lowerL) => {
+        g.add(cyl(u(upperR * 0.8), u(upperR), u(upperL), bone, [x, u(lowerL + upperL / 2), z]));
+        g.add(cyl(u(upperR * 0.62), u(upperR * 0.78), u(lowerL), bone, [x, u(lowerL / 2), z]));
+        g.add(box(u(upperR * 2.1), u(160), u(upperR * 2.4), bone, [x, u(80), z + u(60)]));
+      };
+      for (const side of [-1, 1]) {
+        g.add(box(u(190), u(1100), u(420), bone, [side * u(980), u(BACK - 1000), u(SHZ - 300)], [0.25, 0, 0]));
+        limb(u(SHZ - 420), side * u(1050), 200, 1500, 1300);
+        g.add(box(u(210), u(1200), u(700), bone, [side * u(1000), u(BACK - 1050), u(-260)], [-0.12, 0, 0]));
+        limb(u(-360), side * u(1120), 230, 1620, 1320);
+      }
+
+      return g;
+    }
+
+    // ---------- 场景渲染 ----------
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+    renderer.setSize(innerWidth, innerHeight);
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    document.body.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x15151f);
+    scene.fog = new THREE.Fog(0x15151f, 12, 40);
+    scene.add(new THREE.AmbientLight(0xffffff, 0.55));
+    const key = new THREE.DirectionalLight(0xffffff, 1.6);
+    key.position.set(8, 12, 8); key.castShadow = false;
+    scene.add(key);
+    const rim = new THREE.DirectionalLight(0x8090c0, 0.7);
+    rim.position.set(-6, 4, -8);
+    scene.add(rim);
+
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(40, 40),
+      new THREE.MeshStandardMaterial({ color: 0x2a2a34, roughness: 0.9 })
+    );
+    ground.rotation.x = -Math.PI / 2;
+    scene.add(ground);
+
+    const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 0.1, 120);
+    camera.position.set(4.2, 2.6, 5.5);
+
+    const model = await mamenchisaurus();
+    model.scale.setScalar(3.2); // 放大，便于观察
+    scene.add(model);
+
+    // 计算包围盒，相机对准中心
+    const box3 = new THREE.Box3().setFromObject(model);
+    const center = box3.getCenter(new THREE.Vector3());
+    const size = box3.getSize(new THREE.Vector3());
+    const maxDim = Math.max(size.x, size.y, size.z);
+    const dist = maxDim * 1.4;
+    camera.position.copy(center).add(new THREE.Vector3(dist * 0.7, dist * 0.45, dist * 0.9));
+    camera.lookAt(center);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.target.copy(center);
+    controls.update();
+
+    renderer.setAnimationLoop(() => renderer.render(scene, camera));
+    addEventListener('resize', () => {
+      camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix();
+      renderer.setSize(innerWidth, innerHeight);
+    });
+  </script>
+</body>
+</html>

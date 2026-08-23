@@ -1,0 +1,773 @@
+[
+  {
+    "id": "fang-ding",
+    "name": "后母戊鼎（司母戊鼎）",
+    "files": [
+      {
+        "file": "fang-ding-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:HouMuWuDingFullView.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons",
+        "bytes": 1501994,
+        "cached": true
+      },
+      {
+        "file": "fang-ding-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Houmuwu Ding or Simuwu Ding.jpg",
+        "license": "CC BY-SA",
+        "credit": "Wikimedia Commons",
+        "bytes": 173022,
+        "cached": true
+      }
+    ]
+  },
+  {
+    "id": "bianzhong",
+    "name": "曾侯乙编钟",
+    "files": [
+      {
+        "file": "bianzhong-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Bianzhong of Marquis Yi of Zeng.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Wikimedia Commons",
+        "px": "1600x1063 orig",
+        "bytes": 263430,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Bianzhong_of_Marquis_Yi_of_Zeng.jpg"
+      },
+      {
+        "file": "bianzhong-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:20230208 Chime bells of Marquis Yi of Zeng.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons",
+        "bytes": 2122767,
+        "cached": true
+      }
+    ]
+  },
+  {
+    "id": "jade-cong",
+    "name": "良渚玉琮王",
+    "files": [
+      {
+        "file": "jade-cong-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Liangzhu Culture Jade Cong 08.jpg",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "bytes": 341829,
+        "cached": true
+      },
+      {
+        "file": "jade-cong-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Jade Cong King, 2018-06-09 01.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons",
+        "bytes": 336451,
+        "cached": true
+      }
+    ]
+  },
+  {
+    "id": "oracle-bone",
+    "name": "商代牛肩胛骨刻辞",
+    "files": [
+      {
+        "file": "oracle-bone-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Ancient Chinese Writing on Ox Bone, Shang Dynasty.jpg",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "bytes": 456762,
+        "cached": true
+      },
+      {
+        "file": "oracle-bone-1-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Oracle bone from the Couling-Chalfant collection.jpg",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "px": "2000x3189 orig",
+        "bytes": 1041712,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Oracle_bone_from_the_Couling-Chalfant_collection.jpg/1920px-Oracle_bone_from_the_Couling-Chalfant_collection.jpg"
+      }
+    ]
+  },
+  {
+    "id": "greek-amphora",
+    "name": "泛雅典娜奖瓶（阿提卡黑绘双耳瓶）",
+    "files": [
+      {
+        "file": "greek-amphora-0-texture.png",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Attic Black-Figure Neck Amphora - Achilles and Ajax playing a board game overseen by Athena cropped white-bg.png",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "px": "2200x3272 orig",
+        "bytes": 7965505,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Attic_Black-Figure_Neck_Amphora_-_Achilles_and_Ajax_playing_a_board_game_overseen_by_Athena_cropped_white-bg.png/1920px-Attic_Black-Figure_Neck_Amphora_-_Achilles_and_Ajax_playing_a_board_game_overseen_by_Athena_cropped_white-bg.png"
+      },
+      {
+        "file": "greek-amphora-1-reference.jpg",
+        "role": "reference",
+        "src": "met",
+        "origin": "Met objectID 254864",
+        "license": "CC0",
+        "credit": "The Metropolitan Museum of Art",
+        "bytes": 50910,
+        "cached": true
+      },
+      {
+        "file": "greek-amphora-2-reference.jpg",
+        "role": "reference",
+        "src": "met",
+        "origin": "Met objectID 248902",
+        "license": "CC0",
+        "credit": "The Metropolitan Museum of Art",
+        "bytes": 170986,
+        "cached": true
+      }
+    ]
+  },
+  {
+    "id": "yuan-blue-vase",
+    "name": "青花萧何月下追韩信梅瓶",
+    "files": [
+      {
+        "file": "yuan-blue-vase-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Meiping Vase with Narrative Scenes, Jingdezhen, Yuan, 1320-1350 (9847628326).jpg",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "bytes": 871103,
+        "cached": true
+      },
+      {
+        "file": "yuan-blue-vase-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Xiao He meiping.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons",
+        "px": "1873x2503 orig",
+        "bytes": 1622316,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Xiao_He_meiping.jpg"
+      }
+    ]
+  },
+  {
+    "id": "chicken-cup",
+    "name": "明成化斗彩鸡缸杯",
+    "files": [
+      {
+        "file": "chicken-cup-0-texture.jpg",
+        "role": "texture",
+        "src": "met",
+        "origin": "Met objectID 42515",
+        "license": "CC0",
+        "credit": "The Metropolitan Museum of Art",
+        "bytes": 29518,
+        "cached": true
+      }
+    ]
+  },
+  {
+    "id": "silver-ewer",
+    "name": "鎏金鹦鹉纹提梁银罐",
+    "files": [
+      {
+        "file": "silver-ewer-0-reference.jpg",
+        "role": "reference",
+        "src": "met",
+        "origin": "Met objectID 42182",
+        "license": "CC0",
+        "credit": "The Metropolitan Museum of Art",
+        "bytes": 51241,
+        "cached": true
+      },
+      {
+        "file": "silver-ewer-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Gilt silver bottle with a handle and parrot patterns.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons",
+        "px": "600x800 orig",
+        "bytes": 61861,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Gilt_silver_bottle_with_a_handle_and_parrot_patterns.jpg"
+      }
+    ]
+  },
+  {
+    "id": "jade-imperial-seal",
+    "name": "皇后之玺玉印",
+    "files": [
+      {
+        "file": "jade-imperial-seal-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Western Han Jade Seal (9932814325).jpg",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "bytes": 260515,
+        "cached": true
+      },
+      {
+        "file": "jade-imperial-seal-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Emperess Lu Zhi's jade seal.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons",
+        "bytes": 667332,
+        "cached": true
+      }
+    ]
+  },
+  {
+    "id": "dragon-robe",
+    "name": "清代十二章龙袍",
+    "files": [
+      {
+        "file": "dragon-robe-0-texture.jpg",
+        "role": "texture",
+        "src": "met",
+        "origin": "Met objectID 70207",
+        "license": "CC0",
+        "credit": "The Metropolitan Museum of Art",
+        "bytes": 65971,
+        "cached": true
+      },
+      {
+        "file": "dragon-robe-1-reference.jpg",
+        "role": "reference",
+        "src": "met",
+        "origin": "Met objectID 69072",
+        "license": "CC0",
+        "credit": "The Metropolitan Museum of Art",
+        "bytes": 91278,
+        "cached": true
+      }
+    ]
+  },
+  {
+    "id": "phoenix-crown",
+    "name": "孝端皇后九龙九凤冠",
+    "files": [
+      {
+        "file": "phoenix-crown-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:孝端显皇后九龙九凤冠.jpeg",
+        "license": "Public domain",
+        "credit": "Wikimedia Commons",
+        "px": "1600x1200 orig",
+        "bytes": 352338,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/%E5%AD%9D%E7%AB%AF%E6%98%BE%E7%9A%87%E5%90%8E%E4%B9%9D%E9%BE%99%E4%B9%9D%E5%87%A4%E5%86%A0.jpeg"
+      },
+      {
+        "file": "phoenix-crown-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:20251026 Phoenix Coronet for Empress Xiaoduan.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons",
+        "bytes": 2562152,
+        "cached": true
+      }
+    ]
+  },
+  {
+    "id": "mamenchisaurus",
+    "name": "合川马门溪龙",
+    "files": [
+      {
+        "file": "mamenchisaurus-0-reference.png",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Mamenchisaurus hochuanensis Skeletal.png",
+        "license": "CC BY 3.0",
+        "credit": "Wikimedia Commons",
+        "px": "8778x6790 orig",
+        "bytes": 390783,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Mamenchisaurus_hochuanensis_Skeletal.png/1920px-Mamenchisaurus_hochuanensis_Skeletal.png"
+      },
+      {
+        "file": "mamenchisaurus-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Zigong Dinosaur Museum Mamenchisaurus hochuanensis.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons",
+        "px": "5472x3648 orig",
+        "bytes": 901759,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Zigong_Dinosaur_Museum_Mamenchisaurus_hochuanensis.jpg/1920px-Zigong_Dinosaur_Museum_Mamenchisaurus_hochuanensis.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mammoth",
+    "name": "真猛犸象",
+    "files": [
+      {
+        "file": "mammoth-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Woolly mammoth mount (1).jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Wikimedia Commons",
+        "px": "2344x2320 orig",
+        "bytes": 1528112,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Woolly_mammoth_mount_%281%29.jpg/1920px-Woolly_mammoth_mount_%281%29.jpg"
+      },
+      {
+        "file": "mammoth-1-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Mammuthus primigenius mammoth hair (Upper Pleistocene; Yakutia, northern Siberia, Russia) (15460859952).jpg",
+        "license": "CC BY 2.0",
+        "credit": "James St. John / Wikimedia Commons",
+        "px": "942x599 orig",
+        "bytes": 497258,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Mammuthus_primigenius_mammoth_hair_%28Upper_Pleistocene%3B_Yakutia%2C_northern_Siberia%2C_Russia%29_%2815460859952%29.jpg"
+      }
+    ]
+  },
+  {
+    "id": "trilobite",
+    "name": "三叶虫化石",
+    "files": [
+      {
+        "file": "trilobite-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:ElrathiakingiUtahWheelerCambrian.jpg",
+        "license": "Public domain",
+        "credit": "Wikimedia Commons",
+        "px": "2892x3576 orig",
+        "bytes": 1620207,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ElrathiakingiUtahWheelerCambrian.jpg/1920px-ElrathiakingiUtahWheelerCambrian.jpg"
+      },
+      {
+        "file": "trilobite-1-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Elrathia kingii (fossil trilobite) (Wheeler Formation, Middle Cambrian; House Range, western Utah, USA) 1.jpg",
+        "license": "CC BY 2.0",
+        "credit": "James St. John / Wikimedia Commons",
+        "px": "1632x1848 orig",
+        "bytes": 2207715,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Elrathia_kingii_%28fossil_trilobite%29_%28Wheeler_Formation%2C_Middle_Cambrian%3B_House_Range%2C_western_Utah%2C_USA%29_1.jpg"
+      }
+    ]
+  },
+  {
+    "id": "fish-fossil",
+    "name": "始新世鱼化石",
+    "files": [
+      {
+        "file": "fish-fossil-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Knightia eocaena 033013.jpg",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "px": "3724x1494 orig",
+        "bytes": 375837,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Knightia_eocaena_033013.jpg/1920px-Knightia_eocaena_033013.jpg"
+      },
+      {
+        "file": "fish-fossil-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Priscacara serrata 01.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons",
+        "px": "4000x3000 orig",
+        "bytes": 815293,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Priscacara_serrata_01.jpg/1920px-Priscacara_serrata_01.jpg"
+      }
+    ]
+  },
+  {
+    "id": "petrified-wood",
+    "name": "硅化木",
+    "files": [
+      {
+        "file": "petrified-wood-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Polished slice of petrified wood.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Wikimedia Commons",
+        "px": "2362x2861 orig",
+        "bytes": 1479175,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Polished_slice_of_petrified_wood.jpg/1920px-Polished_slice_of_petrified_wood.jpg"
+      },
+      {
+        "file": "petrified-wood-1-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Petrified wood closeup 2.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons",
+        "px": "2272x1704 orig",
+        "bytes": 979848,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Petrified_wood_closeup_2.jpg/1920px-Petrified_wood_closeup_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": "meteorite",
+    "name": "铁陨石切片（维德曼花纹）",
+    "files": [
+      {
+        "file": "meteorite-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Widmanstätten pattern Staunton meteorite.jpg",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "bytes": 102669,
+        "cached": true
+      },
+      {
+        "file": "meteorite-1-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Widmanstätten pattern kevinzim.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Wikimedia Commons",
+        "bytes": 335387,
+        "cached": true
+      }
+    ]
+  },
+  {
+    "id": "basalt-columns",
+    "name": "柱状玄武岩",
+    "files": [
+      {
+        "file": "basalt-columns-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:County Antrim - Giant's Causeway - Tops of Basalt Columns - geograph.org.uk - 3987884.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Wikimedia Commons",
+        "px": "2272x1515 orig",
+        "bytes": 1478412,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/County_Antrim_-_Giant%27s_Causeway_-_Tops_of_Basalt_Columns_-_geograph.org.uk_-_3987884.jpg/1920px-County_Antrim_-_Giant%27s_Causeway_-_Tops_of_Basalt_Columns_-_geograph.org.uk_-_3987884.jpg"
+      },
+      {
+        "file": "basalt-columns-1-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Antrim Coast - Giant's Causeway - Closeup of Basalt Columns - geograph.org.uk - 3719472.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Wikimedia Commons",
+        "px": "1960x3008 orig",
+        "bytes": 2223500,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Antrim_Coast_-_Giant%27s_Causeway_-_Closeup_of_Basalt_Columns_-_geograph.org.uk_-_3719472.jpg/1920px-Antrim_Coast_-_Giant%27s_Causeway_-_Closeup_of_Basalt_Columns_-_geograph.org.uk_-_3719472.jpg"
+      }
+    ]
+  },
+  {
+    "id": "siberian-tiger",
+    "name": "东北虎",
+    "files": [
+      {
+        "file": "siberian-tiger-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Panthera tigris altaica 13 - Buffalo Zoo.jpg",
+        "license": "Public domain",
+        "credit": "Wikimedia Commons",
+        "px": "3222x2184 orig",
+        "bytes": 457963,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Panthera_tigris_altaica_13_-_Buffalo_Zoo.jpg/1920px-Panthera_tigris_altaica_13_-_Buffalo_Zoo.jpg"
+      },
+      {
+        "file": "siberian-tiger-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Siberian Tiger by Malene Th.jpg",
+        "license": "CC BY 2.5",
+        "credit": "Malene Thyssen / Wikimedia Commons",
+        "px": "651x1000 orig",
+        "bytes": 597513,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Siberian_Tiger_by_Malene_Th.jpg"
+      }
+    ]
+  },
+  {
+    "id": "giant-panda",
+    "name": "大熊猫",
+    "files": [
+      {
+        "file": "giant-panda-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Lightmatter panda.jpg",
+        "license": "CC BY 1.0",
+        "credit": "Aaron Logan / Wikimedia Commons",
+        "px": "720x480 orig",
+        "bytes": 60823,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Lightmatter_panda.jpg"
+      },
+      {
+        "file": "giant-panda-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Chengdu-pandas-d10.jpg",
+        "license": "CC BY-SA 2.5 es",
+        "credit": "Wikimedia Commons",
+        "px": "1024x768 orig",
+        "bytes": 451619,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Chengdu-pandas-d10.jpg"
+      }
+    ]
+  },
+  {
+    "id": "golden-monkey",
+    "name": "川金丝猴",
+    "files": [
+      {
+        "file": "golden-monkey-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Golden Snub-nosed Monkeys, Qinling Mountains - China.jpg",
+        "license": "CC BY-SA 2.0",
+        "credit": "Wikimedia Commons",
+        "px": "660x960 orig",
+        "bytes": 275240,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Golden_Snub-nosed_Monkeys%2C_Qinling_Mountains_-_China.jpg"
+      },
+      {
+        "file": "golden-monkey-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:2011 Rhinopithecus roxellana.JPG",
+        "license": "CC BY-SA 3.0",
+        "credit": "Wikimedia Commons",
+        "px": "3305x2410 orig",
+        "bytes": 615210,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/2011_Rhinopithecus_roxellana.JPG/1920px-2011_Rhinopithecus_roxellana.JPG"
+      }
+    ]
+  },
+  {
+    "id": "specimen-jar",
+    "name": "液浸海洋生物标本",
+    "files": [
+      {
+        "file": "specimen-jar-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Naturalis Biodiversity Center - Chameleon on alcohol in a glass jar.JPG",
+        "license": "CC0",
+        "credit": "Naturalis Biodiversity Center",
+        "px": "3000x4000 orig",
+        "bytes": 788245,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Naturalis_Biodiversity_Center_-_Chameleon_on_alcohol_in_a_glass_jar.JPG/1920px-Naturalis_Biodiversity_Center_-_Chameleon_on_alcohol_in_a_glass_jar.JPG"
+      },
+      {
+        "file": "specimen-jar-1-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Fish preserved in a jar for scientific study (27946762017).jpg",
+        "license": "CC BY 2.0",
+        "credit": "Wikimedia Commons",
+        "px": "4000x6000 orig",
+        "bytes": 576894,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Fish_preserved_in_a_jar_for_scientific_study_%2827946762017%29.jpg/1920px-Fish_preserved_in_a_jar_for_scientific_study_%2827946762017%29.jpg"
+      }
+    ]
+  },
+  {
+    "id": "insect-case",
+    "name": "蝴蝶与甲虫标本柜",
+    "files": [
+      {
+        "file": "insect-case-0-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:Drawer 31 from the Vorisek collection of Cerambycidae (Natural History Museum, London) (32134869383).jpg",
+        "license": "CC BY 2.0",
+        "credit": "Natural History Museum, London",
+        "px": "4320x3240 orig",
+        "bytes": 572777,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Drawer_31_from_the_Vorisek_collection_of_Cerambycidae_%28Natural_History_Museum%2C_London%29_%2832134869383%29.jpg/1920px-Drawer_31_from_the_Vorisek_collection_of_Cerambycidae_%28Natural_History_Museum%2C_London%29_%2832134869383%29.jpg"
+      },
+      {
+        "file": "insect-case-1-texture.jpg",
+        "role": "texture",
+        "src": "commons",
+        "origin": "File:04 Museum insect specimen drawer (Schmetterlings Exemplar) - Muzeum Gornoslaskie, Bytom, Poland.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Muzeum Górnośląskie / Wikimedia Commons",
+        "px": "2160x1616 orig",
+        "bytes": 639371,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/04_Museum_insect_specimen_drawer_%28Schmetterlings_Exemplar%29_-_Muzeum_Gornoslaskie%2C_Bytom%2C_Poland.jpg/1920px-04_Museum_insect_specimen_drawer_%28Schmetterlings_Exemplar%29_-_Muzeum_Gornoslaskie%2C_Bytom%2C_Poland.jpg"
+      }
+    ]
+  },
+  {
+    "id": "concept-car",
+    "name": "梅赛德斯-奔驰 VISION EQXX",
+    "files": [
+      {
+        "file": "concept-car-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Mercedes-Benz Vision EQXX 001.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons",
+        "px": "3350x2512 orig",
+        "bytes": 767834,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Mercedes-Benz_Vision_EQXX_001.jpg/1920px-Mercedes-Benz_Vision_EQXX_001.jpg"
+      },
+      {
+        "file": "concept-car-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Mercedes-Benz Vision EQXX 002.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Wikimedia Commons",
+        "px": "4608x3456 orig",
+        "bytes": 399318,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mercedes-Benz_Vision_EQXX_002.jpg/1920px-Mercedes-Benz_Vision_EQXX_002.jpg"
+      }
+    ]
+  },
+  {
+    "id": "evtol",
+    "name": "亿航 EH216-S 自动驾驶载人航空器",
+    "files": [
+      {
+        "file": "evtol-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:EHang 216 1 frente by-dpc.jpg",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "px": "9248x6936 orig",
+        "bytes": 810049,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/EHang_216_1_frente_by-dpc.jpg/1920px-EHang_216_1_frente_by-dpc.jpg"
+      },
+      {
+        "file": "evtol-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:EHang 216 7 lateral by-dpc.jpg",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "px": "9248x6936 orig",
+        "bytes": 600469,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/EHang_216_7_lateral_by-dpc.jpg/1920px-EHang_216_7_lateral_by-dpc.jpg"
+      }
+    ]
+  },
+  {
+    "id": "smart-watch",
+    "note": "无图源（程序化材质）",
+    "files": []
+  },
+  {
+    "id": "ar-glasses",
+    "note": "无图源（程序化材质）",
+    "files": []
+  },
+  {
+    "id": "humanoid-robot",
+    "name": "宇树 G1 人形机器人",
+    "files": [
+      {
+        "file": "humanoid-robot-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Unitree G1.jpg",
+        "license": "CC0",
+        "credit": "Wikimedia Commons",
+        "px": "1380x2326 orig",
+        "bytes": 246063,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Unitree_G1.jpg"
+      }
+    ]
+  },
+  {
+    "id": "robot-dog",
+    "name": "宇树 Go2 四足机器人",
+    "files": [
+      {
+        "file": "robot-dog-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Unitree Go2 of Salvamont side view.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Salvamont / Wikimedia Commons",
+        "px": "1054x689 orig",
+        "bytes": 323779,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Unitree_Go2_of_Salvamont_side_view.jpg"
+      },
+      {
+        "file": "robot-dog-1-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Unitree robot dog - Romanian Land Forces Day 2023.jpg",
+        "license": "Public domain",
+        "credit": "Wikimedia Commons",
+        "px": "6720x4480 orig",
+        "bytes": 692557,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Unitree_robot_dog_-_Romanian_Land_Forces_Day_2023.jpg/1920px-Unitree_robot_dog_-_Romanian_Land_Forces_Day_2023.jpg"
+      }
+    ]
+  },
+  {
+    "id": "printed-chair",
+    "name": "Maker Chair (Puzzle) 3D打印拼图椅",
+    "files": [
+      {
+        "file": "printed-chair-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Joris laarman per joris laarman lab, sedia makerchair (puzzle), 2014.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Wikimedia Commons",
+        "px": "1849x2322 orig",
+        "bytes": 2456738,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Joris_laarman_per_joris_laarman_lab%2C_sedia_makerchair_%28puzzle%29%2C_2014.jpg"
+      }
+    ]
+  },
+  {
+    "id": "lattice-table",
+    "name": "3D打印渐变混凝土茶几",
+    "files": [
+      {
+        "file": "lattice-table-0-reference.jpg",
+        "role": "reference",
+        "src": "commons",
+        "origin": "File:Wooven Table printed on a BigRep.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Wikimedia Commons",
+        "px": "3193x2129 orig",
+        "bytes": 401410,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Wooven_Table_printed_on_a_BigRep.jpg/1920px-Wooven_Table_printed_on_a_BigRep.jpg"
+      }
+    ]
+  }
+]

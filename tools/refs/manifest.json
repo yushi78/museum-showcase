@@ -1,0 +1,488 @@
+{
+  "_note": "31 件展品的真实原型对照表。real = 实物考据；refs = 公开授权图源（role: texture 直接用作贴图 / reference 仅作形制比对）。",
+  "_sources": {
+    "met": "https://collectionapi.metmuseum.org/public/collection/v1/objects/{objectID}  — CC0",
+    "commons": "https://commons.wikimedia.org/w/api.php  prop=imageinfo — 许可见各条 license"
+  },
+
+  "exhibits": [
+    {
+      "id": "fang-ding",
+      "real": {
+        "name": "后母戊鼎（司母戊鼎）",
+        "en": "Houmuwu Ding",
+        "museum": "中国国家博物馆",
+        "era": "商代晚期 约公元前13—前11世纪",
+        "dims_mm": { "h_total": 1330, "h_body": 870, "mouth_l": 1120, "mouth_w": 790, "leg_h": 460, "wall_t": 60 },
+        "mass_kg": 832.84,
+        "form": "长方槽形腹，四柱足二立耳；立耳外侧浮雕双虎噬人首；腹四壁中央大面积素面长方框，仅四边缘各一条兽面纹带；四转角+每面中线共8条扉棱；足上段兽面纹、下段素面；内壁近耳铸铭『后母戊』三字"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:HouMuWuDingFullView.jpg", "role": "texture", "license": "CC BY-SA 3.0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Houmuwu Ding or Simuwu Ding.jpg", "role": "reference", "license": "CC BY-SA", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "bianzhong",
+      "real": {
+        "name": "曾侯乙编钟",
+        "en": "Bianzhong of Marquis Yi of Zeng",
+        "museum": "湖北省博物馆",
+        "era": "战国早期 公元前433年",
+        "dims_mm": { "frame_long_w": 7480, "frame_long_h": 2650, "frame_short_w": 3350, "frame_short_h": 2730, "bell_max_h": 1534, "bell_min_h": 204 },
+        "mass_kg": 2567,
+        "form": "曲尺(L)形三层八组：上层3组19钮钟，中层3组33甬钟，下层2组12大甬钟+1楚王镈；钟体合瓦形(杏仁截面)非圆；每钟36枚乳丁分4区×3组；错金铭文3755字；6尊佩剑铜人+圆柱承托木梁"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Bianzhong of Marquis Yi of Zeng.jpg", "role": "texture", "license": "CC BY-SA 2.0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:20230208 Chime bells of Marquis Yi of Zeng.jpg", "role": "reference", "license": "CC BY-SA 4.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "jade-cong",
+      "real": {
+        "name": "良渚玉琮王",
+        "en": "Jade Cong King",
+        "museum": "浙江省博物馆（反山 M12:98）",
+        "era": "良渚文化 约公元前3300—前2300年",
+        "dims_mm": { "h": 89, "top_d": 174, "bottom_d": 170, "hole_outer_d": 50, "hole_inner_d": 38 },
+        "mass_kg": 6.5,
+        "form": "内圆外方单节矮体，上大下小、矮而阔（切勿做成高瘦柱）；四面直槽内上下各刻1个完整神人兽面纹共8个；四转角作2节简化神人兽面；上下射口圆管突出"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Liangzhu Culture Jade Cong 08.jpg", "role": "texture", "license": "CC0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Jade Cong King, 2018-06-09 01.jpg", "role": "reference", "license": "CC BY-SA 4.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "oracle-bone",
+      "real": {
+        "name": "商代牛肩胛骨刻辞",
+        "en": "Oracle Bone Inscription",
+        "museum": "中国国家博物馆 / 史语所",
+        "era": "商代晚期 约公元前1200年",
+        "dims_mm": { "l": 260, "w": 130, "t": 6 },
+        "form": "肩胛骨不对称扇形，骨臼端厚圆、骨扇端薄阔，切去骨脊；背面枣核形长凿+旁侧圆钻；正面沿卜字形兆纹竖行刻辞，左右对贞，可涂朱"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Ancient Chinese Writing on Ox Bone, Shang Dynasty.jpg", "role": "texture", "license": "CC0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Oracle bone from the Couling-Chalfant collection.jpg", "role": "texture", "license": "CC0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "greek-amphora",
+      "real": {
+        "name": "泛雅典娜奖瓶（阿提卡黑绘双耳瓶）",
+        "en": "Panathenaic Prize Amphora",
+        "museum": "The Metropolitan Museum of Art",
+        "era": "约公元前530年",
+        "dims_mm": { "h_with_lid": 863, "h": 705, "mouth_d": 229, "foot_d": 140 },
+        "form": "卵形腹最大径在中上部，短颈微收，厚圆唇外侈，双竖带耳连颈至肩，喇叭形圈足；A面雅典娜持矛盾侧身左向立于两根多立克柱之间，柱头各立公鸡；黑釉剪影+刻线细节+白紫加彩"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Attic Black-Figure Neck Amphora - Achilles and Ajax playing a board game overseen by Athena cropped white-bg.png", "role": "texture", "license": "CC0", "credit": "Wikimedia Commons" },
+        { "src": "met", "objectID": 254864, "role": "reference", "license": "CC0", "credit": "The Metropolitan Museum of Art" },
+        { "src": "met", "objectID": 248902, "role": "reference", "license": "CC0", "credit": "The Metropolitan Museum of Art" }
+      ]
+    },
+    {
+      "id": "yuan-blue-vase",
+      "real": {
+        "name": "青花萧何月下追韩信梅瓶",
+        "en": "Yuan Blue-and-White Meiping",
+        "museum": "南京市博物馆",
+        "era": "元代 14世纪",
+        "dims_mm": { "h": 441, "mouth_d": 55, "foot_d": 130, "max_belly_d": 284 },
+        "form": "小口平沿、短束颈、丰肩（肩部最饱满）、腹以下渐收、胫部微外撇、平底浅圈足；纹饰五层：口沿卷草→肩部覆莲瓣内填杂宝+缠枝牡丹→腹部人物主题→胫部卷草→近底仰莲瓣"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Meiping Vase with Narrative Scenes, Jingdezhen, Yuan, 1320-1350 (9847628326).jpg", "role": "texture", "license": "CC0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Xiao He meiping.jpg", "role": "reference", "license": "CC BY-SA 3.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "chicken-cup",
+      "real": {
+        "name": "明成化斗彩鸡缸杯",
+        "en": "Chenghua Doucai Chicken Cup",
+        "museum": "The Metropolitan Museum of Art (1987.85)",
+        "era": "明成化 1465—1487年",
+        "dims_mm": { "h": 41, "mouth_d": 83, "foot_d": 38 },
+        "form": "极小器，敞口微外撇，浅弧腹，卧足（挖足浅、无外撇圈足）；外壁绕器两组：雄鸡引颈+雌鸡啄虫+雏鸡三五只，两组间以湖石牡丹、幽兰翠竹分隔；釉下青花双钩，釉上填红黄绿紫；底青花双方框『大明成化年制』六字双行款"
+      },
+      "refs": [
+        { "src": "met", "objectID": 42515, "role": "texture", "license": "CC0", "credit": "The Metropolitan Museum of Art" }
+      ]
+    },
+    {
+      "id": "silver-ewer",
+      "real": {
+        "name": "鎏金鹦鹉纹提梁银罐",
+        "en": "Gilt Silver Jar with Parrot Design",
+        "museum": "陕西历史博物馆（何家村窖藏）",
+        "era": "唐代 8世纪",
+        "dims_mm": { "h": 242, "mouth_d": 124, "foot_d": 143 },
+        "mass_kg": 1.789,
+        "form": "圆鼓腹、短直颈、喇叭形圈足、覆碗形盖顶置宝珠钮、弧形提梁两端接肩部双系；通体鱼子纹地上錾刻鎏金：腹部两侧各一鹦鹉展翅团花，周围折枝葡萄卷草，盖面宝相花"
+      },
+      "refs": [
+        { "src": "met", "objectID": 42182, "role": "reference", "license": "CC0", "credit": "The Metropolitan Museum of Art" },
+        { "src": "commons", "file": "File:Gilt silver bottle with a handle and parrot patterns.jpg", "role": "reference", "license": "CC BY-SA 3.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "jade-imperial-seal",
+      "real": {
+        "name": "皇后之玺玉印",
+        "en": "Jade Seal of the Empress",
+        "museum": "陕西历史博物馆",
+        "era": "西汉 公元前2世纪",
+        "dims_mm": { "h": 20, "side": 28, "base_t": 8, "knob_h": 12 },
+        "mass_kg": 0.033,
+        "form": "和田白玉正方形印台；螭虎钮伏卧状，头微昂、双目圆睁、张口露齿、四肢屈踞、长尾卷曲盘于身侧；印台四侧阴刻云纹；印面阴刻小篆白文『皇后之玺』"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Western Han Jade Seal (9932814325).jpg", "role": "texture", "license": "CC0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Emperess Lu Zhi's jade seal.jpg", "role": "reference", "license": "CC BY-SA 3.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "dragon-robe",
+      "real": {
+        "name": "清代十二章龙袍",
+        "en": "Emperor's Twelve-Symbol Robe",
+        "museum": "The Metropolitan Museum of Art (35.84.15 / 56.92.4)",
+        "era": "清 雍正—光绪期",
+        "dims_mm": { "l": 1448, "sleeve_span": 2159 },
+        "form": "圆领、大襟右衽、马蹄袖（箭袖）、四开裾；九龙：前后身各3、两肩各1、里襟藏1，单一视角只见5龙；十二章：日月星辰山龙华虫在上身，宗彝藻火粉米黼黻在下裳；下摆海水江崖+八宝立水，水脚斜向平行线；领袖缘石青片金"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Yellow silk dragon robe. Detail (CBL C 1051).jpg", "role": "texture", "license": "Public domain", "credit": "Chester Beatty Library / Wikimedia Commons" },
+        { "src": "met", "objectID": 69072, "role": "reference", "license": "CC0", "credit": "The Metropolitan Museum of Art" }
+      ]
+    },
+    {
+      "id": "phoenix-crown",
+      "real": {
+        "name": "孝端皇后九龙九凤冠",
+        "en": "Nine-Dragon Nine-Phoenix Crown",
+        "museum": "中国国家博物馆（定陵出土）",
+        "era": "明代 万历年间",
+        "dims_mm": { "h_total": 485, "crown_h": 270, "crown_d": 237 },
+        "mass_kg": 2.32,
+        "form": "髹漆细竹丝编圆框为胎，外覆罗、点翠为地；九金龙：顶部正中一条大升龙，两侧各四条行龙，龙口衔珠宝滴；九翠凤：龙下方八只点翠凤对称排列，冠后正中另一只；冠后左右各出三扇博鬓共六扇；红蓝宝石115块、珍珠4414颗"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:孝端显皇后九龙九凤冠.jpeg", "role": "texture", "license": "Public domain", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:20251026 Phoenix Coronet for Empress Xiaoduan.jpg", "role": "reference", "license": "CC BY-SA 4.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+
+    {
+      "id": "mamenchisaurus",
+      "real": {
+        "name": "合川马门溪龙",
+        "en": "Mamenchisaurus hochuanensis",
+        "museum": "正型标本 CCG V 20401，装架现存成都自然博物馆",
+        "era": "晚侏罗世 上沙溪庙组",
+        "dims_m": { "total_l": 22.0, "neck_l": 9.3, "hip_h": 3.9 },
+        "form": "椎式 19颈+12背+4荐+35尾；颈长占体长45-50%；椎体后凹型，侧凹发育；颈肋极长多节叠瓦式重叠；前后肢近等长(比≈1.0)，背线水平；头骨小、勺状齿；尾端4节愈合椎",
+        "cervical_len_mm": { "1": 60, "3": 215, "5": 415, "7": 580, "11": 730, "12": 730, "15": 660, "17": 550, "19": 325 }
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Mamenchisaurus hochuanensis Skeletal.png", "role": "reference", "license": "CC BY 3.0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Zigong Dinosaur Museum Mamenchisaurus hochuanensis.jpg", "role": "reference", "license": "CC BY-SA 4.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "mammoth",
+      "real": {
+        "name": "真猛犸象",
+        "en": "Mammuthus primigenius",
+        "museum": "Adams 猛犸标本 ZIN（俄罗斯动物研究所）",
+        "era": "更新世晚期",
+        "dims_m": { "shoulder_h": 3.0, "body_l": 4.5, "tusk_arc_l": 2.6 },
+        "mass_kg": 6000,
+        "form": "象牙自颌部向下外侧伸出→外旋→向内上方回卷，成年雄性尖端可交叉，整体近1.5圈三维螺旋（非平面弧）；头骨高而短、单穹顶状；肩部脂肪隆起+背线向后急降；耳廓极小约30cm；外层针毛长达90cm；毛色深褐-红棕"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Woolly mammoth mount (1).jpg", "role": "reference", "license": "CC BY-SA 2.0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Mammuthus primigenius mammoth hair (Upper Pleistocene; Yakutia, northern Siberia, Russia) (15460859952).jpg", "role": "texture", "license": "CC BY 2.0", "credit": "James St. John / Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "trilobite",
+      "real": {
+        "name": "三叶虫化石",
+        "en": "Elrathia kingii",
+        "museum": "中寒武世 Wheeler 页岩，美国犹他 House Range",
+        "era": "中寒武世 约5.05亿年",
+        "dims_mm": { "l": 28, "w": 17 },
+        "form": "头甲占全长1/3，胸部13节胸节，尾甲小于头甲占1/5；宽长比约0.6；眼叶新月形位于头鞍中前部；头鞍前窄后宽锥形；外骨骼深棕黑褐色，围岩浅灰米黄泥灰质页岩"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:ElrathiakingiUtahWheelerCambrian.jpg", "role": "texture", "license": "Public domain", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Elrathia kingii (fossil trilobite) (Wheeler Formation, Middle Cambrian; House Range, western Utah, USA) 1.jpg", "role": "texture", "license": "CC BY 2.0", "credit": "James St. John / Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "fish-fossil",
+      "real": {
+        "name": "始新世鱼化石",
+        "en": "Knightia eocaena",
+        "museum": "绿河组 Fossil Butte National Monument, Wyoming",
+        "era": "始新世 约5200万年",
+        "dims_mm": { "l": 120, "h": 30, "slab_w": 260, "slab_h": 190 },
+        "form": "细长鲱形，体高约体长1/4；骨骼深棕黑至蜜糖褐；围岩米白浅灰纹层状灰岩，常有平行细纹层；鳍条与椎骨呈梳状排列"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Knightia eocaena 033013.jpg", "role": "texture", "license": "CC0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Priscacara serrata 01.jpg", "role": "reference", "license": "CC BY-SA 4.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "petrified-wood",
+      "real": {
+        "name": "硅化木",
+        "en": "Petrified Wood (Agathoxylon arizonicum)",
+        "museum": "石化森林国家公园 Petrified Forest NP, Arizona",
+        "era": "晚三叠世 Chinle 组 约2.25亿年",
+        "dims_mm": { "d": 620, "t": 260 },
+        "form": "横截面完全玛瑙化的石英玉髓，保留年轮同心环+放射状收缩裂隙，裂隙内充填晶簇；Fe³⁺→红橙，Fe²⁺→黄绿，Mn→粉紫黑，纯SiO₂→白灰半透明；外皮层保留树皮纹理灰褐哑光，与抛光面高光强对比"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Polished slice of petrified wood.jpg", "role": "texture", "license": "CC BY 3.0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Petrified wood closeup 2.jpg", "role": "texture", "license": "CC BY-SA 3.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "meteorite",
+      "real": {
+        "name": "铁陨石切片（维德曼花纹）",
+        "en": "Iron Meteorite Slice, Widmanstätten Pattern",
+        "museum": "Gibeon 铁陨石（纳米比亚，IVA 型细八面体石）",
+        "era": "太阳系形成期 约45亿年",
+        "dims_mm": { "w": 240, "h": 190, "t": 6 },
+        "form": "铁纹石带宽 IVA 型 0.25-0.45mm；带纹沿八面体{111}四组方向排列，平行(111)面切割呈60/120°等边三角网格；切面银灰高金属反射，铁纹石亮、镍纹石细亮边、合纹石暗块；熔壳0.1-1mm黑色哑光带流纹与气印"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Widmanstätten pattern Staunton meteorite.jpg", "role": "texture", "license": "CC0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Widmanstätten pattern kevinzim.jpg", "role": "texture", "license": "CC BY 2.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "basalt-columns",
+      "real": {
+        "name": "柱状玄武岩",
+        "en": "Columnar Basalt",
+        "museum": "巨人堤道 Giant's Causeway, 北爱尔兰",
+        "era": "古近纪 约6000万年",
+        "dims_mm": { "column_d": 450, "joint_spacing": 550 },
+        "form": "柱体直径380-500mm，截面边数4-8，六边形约70%必须混合边数；柱轴垂直于冷却面；柱身有水平球窝状分节，节距300-800mm；新鲜面深灰近黑，风化面灰褐带铁锈橙；柱顶常有地衣与积水渍"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:County Antrim - Giant's Causeway - Tops of Basalt Columns - geograph.org.uk - 3987884.jpg", "role": "texture", "license": "CC BY-SA 2.0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Antrim Coast - Giant's Causeway - Closeup of Basalt Columns - geograph.org.uk - 3719472.jpg", "role": "texture", "license": "CC BY-SA 2.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "siberian-tiger",
+      "real": {
+        "name": "东北虎",
+        "en": "Panthera tigris tigris (Amur population)",
+        "museum": "生态标本",
+        "era": "现生",
+        "dims_mm": { "head_body_l": 2100, "tail_l": 950, "shoulder_h": 1000 },
+        "mass_kg": 200,
+        "form": "尾长约体长45-50%；冬毛底色浅赭黄至奶油橙；条纹偏褐黑非纯黑、数量较少、间距较宽；躯干条纹近垂直、肩部略前倾，臀部条纹分叉成Y形，尾部8-10道环带、尾尖黑；腹部四肢内侧颊部眼上斑纯白；成年雄性颊须明显；耳背黑底带白色假眼斑"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Panthera tigris altaica 13 - Buffalo Zoo.jpg", "role": "reference", "license": "Public domain", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Siberian Tiger by Malene Th.jpg", "role": "reference", "license": "CC BY 2.5", "credit": "Malene Thyssen / Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "giant-panda",
+      "real": {
+        "name": "大熊猫",
+        "en": "Ailuropoda melanoleuca",
+        "museum": "生态标本",
+        "era": "现生",
+        "dims_mm": { "head_body_l": 1550, "tail_l": 130, "shoulder_h": 750 },
+        "mass_kg": 100,
+        "form": "黑色区为耳廓、眼周斑（斜向椭圆、外下角尖）、前肢连同肩部形成的完整横向黑带、后肢；其余米白偏奶黄非纯白；躯干圆桶形，四肢粗短，行走内八字；颧弓极度外扩、矢状嵴高耸；前掌有桡侧籽骨特化的伪拇指"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Lightmatter panda.jpg", "role": "reference", "license": "CC BY 1.0", "credit": "Aaron Logan / Wikimedia Commons" },
+        { "src": "commons", "file": "File:Chengdu-pandas-d10.jpg", "role": "reference", "license": "CC BY-SA 2.5", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "golden-monkey",
+      "real": {
+        "name": "川金丝猴",
+        "en": "Rhinopithecus roxellana",
+        "museum": "生态标本（秦岭亚种）",
+        "era": "现生",
+        "dims_mm": { "head_body_l": 680, "tail_l": 660 },
+        "mass_kg": 20,
+        "form": "尾长≈头体长100%；面部裸露呈天蓝青白色；鼻骨退化、鼻孔上翻朝天；成年雄性口角两侧有肉质瘤状唇疣；背肩披金橙色长毛，雄性肩背长毛可达300mm形成披风；头顶冠毛深褐至黑；四肢外侧与尾偏灰褐，尾端蓬松色浅"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Golden Snub-nosed Monkeys, Qinling Mountains - China.jpg", "role": "reference", "license": "CC BY-SA 2.0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:2011 Rhinopithecus roxellana.JPG", "role": "reference", "license": "CC BY-SA 3.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "specimen-jar",
+      "real": {
+        "name": "液浸海洋生物标本",
+        "en": "Fluid-Preserved Marine Specimen",
+        "museum": "Naturalis Biodiversity Center 标准液浸馆藏",
+        "era": "现代馆藏",
+        "dims_mm": { "jar_d": 170, "jar_h": 340 },
+        "form": "广口玻璃罐+磨砂玻璃盖；10%中性缓冲福尔马林固定后转70-75%乙醇长期保存；乙醇折射率1.36产生明显放大与边缘折射畸变；标本色素流失褪成米黄灰白浅褐，肌肉半透明蜡质；液体略带黄色；棉线系挂+手写编号纸签；液面下有细小絮状沉淀"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Naturalis Biodiversity Center - Chameleon on alcohol in a glass jar.JPG", "role": "reference", "license": "CC0", "credit": "Naturalis Biodiversity Center" },
+        { "src": "commons", "file": "File:Fish preserved in a jar for scientific study (27946762017).jpg", "role": "texture", "license": "CC BY 2.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "insect-case",
+      "real": {
+        "name": "蝴蝶与甲虫标本柜",
+        "en": "Butterfly and Beetle Specimen Drawers",
+        "museum": "NHM London / Muzeum Górnośląskie",
+        "era": "现代馆藏",
+        "dims_mm": { "drawer_w": 482, "drawer_d": 419, "drawer_h": 76, "pin_l": 39 },
+        "form": "Cornell drawer 标准 482×419×76mm，玻璃盖，内衬白色 Plastazote；标本按严格网格行列排列，同种同行、体轴统一朝上；蝴蝶展翅——后翅前缘与体轴垂直、前翅后缘成一直线；甲虫背面朝上、针穿右鞘翅；针下叠两张标签；柜体深色硬木+黄铜拉手"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Drawer 31 from the Vorisek collection of Cerambycidae (Natural History Museum, London) (32134869383).jpg", "role": "texture", "license": "CC BY 2.0", "credit": "Natural History Museum, London" },
+        { "src": "commons", "file": "File:04 Museum insect specimen drawer (Schmetterlings Exemplar) - Muzeum Gornoslaskie, Bytom, Poland.jpg", "role": "texture", "license": "CC BY 3.0", "credit": "Muzeum Górnośląskie / Wikimedia Commons" }
+      ]
+    },
+
+    {
+      "id": "concept-car",
+      "real": {
+        "name": "梅赛德斯-奔驰 VISION EQXX",
+        "en": "Mercedes-Benz VISION EQXX",
+        "museum": "2022 研究概念车",
+        "era": "2022",
+        "dims_mm": { "l": 4975, "w": 1870, "h": 1348, "wheelbase": 2800, "wheel_d": 750 },
+        "mass_kg": 1755,
+        "form": "四座三厢单弓形(one-bow)剪影，高宽比极端：高1348mm而长近5m，视觉比例≈3.7:1；前脸无格栅、封闭盾形黑面板+环状灯带；车顶自A柱连续下滑至尾部收成水滴尾(boat-tail)，车尾比车头明显收窄；后轮完全被半包轮眉覆盖；185/65 R20超窄胎；车顶117块太阳能板；Cd 0.17"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Mercedes-Benz Vision EQXX 001.jpg", "role": "reference", "license": "CC BY-SA 4.0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:Mercedes-Benz Vision EQXX 002.jpg", "role": "reference", "license": "CC BY-SA 4.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "evtol",
+      "real": {
+        "name": "亿航 EH216-S 自动驾驶载人航空器",
+        "en": "EHang EH216-S",
+        "museum": "2023 获中国民航局型号合格证",
+        "era": "2023",
+        "dims_mm": { "l": 5630, "w": 5630, "h": 1855, "prop_d": 1550 },
+        "mass_kg": 650,
+        "form": "8轴8对旋翼=16桨16电机，共轴双桨每臂上下各一副反向旋转；8根碳纤维臂放射状水平布置；座舱为两座并排胶囊体，鸥翼门上掀；橇式起落架两根纵向滑橇；白色主体+黑色碳纤维臂+蓝色灯带；F1赛车风格人体工学座椅"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:EHang 216 1 frente by-dpc.jpg", "role": "reference", "license": "CC0", "credit": "Wikimedia Commons" },
+        { "src": "commons", "file": "File:EHang 216 7 lateral by-dpc.jpg", "role": "reference", "license": "CC0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "smart-watch",
+      "real": {
+        "name": "钛金属运动智能手表",
+        "en": "Titanium Sport Smartwatch (Apple Watch Ultra 2 形制)",
+        "museum": "2023 量产消费电子",
+        "era": "2023",
+        "dims_mm": { "case_h": 49, "case_w": 44, "case_t": 14.4, "band_w": 26 },
+        "mass_kg": 0.061,
+        "form": "5级钛金属整体表壳；平整蓝宝石表镜非弧面，表镜边缘被钛壳抬高一圈形成护边；右侧数码表冠外径加大带纵向滚花，表冠外侧有独立护桥；表冠上方为侧边按钮；左侧橙色操作按钮为唯一撞色件；左下角扬声器开孔阵列；背面圆形传感器阵列",
+        "note": "消费电子外观权与照片版权分离，仅取形制比例，不贴产品照"
+      },
+      "refs": []
+    },
+    {
+      "id": "ar-glasses",
+      "real": {
+        "name": "混合现实头显",
+        "en": "Mixed Reality Headset (HoloLens 2 形制)",
+        "museum": "2019 量产",
+        "era": "2019",
+        "dims_mm": { "visor_w": 190, "visor_h": 62, "band_d": 200 },
+        "mass_kg": 0.566,
+        "form": "碳纤维头箍+可上翻面罩(flip-up visor)，铰链在额头两侧；面罩为一整片弧形透明护镜，内部波导片；面罩前沿4颗可见光跟踪相机+1颗8MP RGB+1颗ToF深度；鼻梁上方内侧2颗红外眼动相机；电池仓移至后脑勺前后配重50:50；后部旋钮式收紧轮；扬声器位于双耳上方臂中；全黑哑光+深灰半透明护镜",
+        "note": "Commons 无合规实机图源，走程序化材质"
+      },
+      "refs": []
+    },
+    {
+      "id": "humanoid-robot",
+      "real": {
+        "name": "宇树 G1 人形机器人",
+        "en": "Unitree G1 Humanoid Robot",
+        "museum": "2024-05 发布",
+        "era": "2024",
+        "dims_mm": { "h": 1320, "w": 450, "d": 200, "leg_l": 600, "arm_span": 450 },
+        "mass_kg": 35,
+        "form": "总自由度23：单腿6、单臂5、腰1、单手7；头部为无面孔圆角矩形传感器舱，顶部圆柱形3D激光雷达凸起，前方深度相机；躯干短而方正；肩部外置圆柱形关节电机是最强识别特征；髋膝踝均可见外露扁圆柱驱动器；小腿细长、足部为窄条形脚掌；全关节中空走线；白色银灰壳体+黑色关节"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Unitree G1.jpg", "role": "reference", "license": "CC0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "robot-dog",
+      "real": {
+        "name": "宇树 Go2 四足机器人",
+        "en": "Unitree Go2 Quadruped Robot",
+        "museum": "2023 发布",
+        "era": "2023",
+        "dims_mm": { "l": 700, "w": 310, "h": 400, "lidar_d": 70 },
+        "mass_kg": 15,
+        "form": "12个铝合金精密关节电机，每腿3个：髋外摆/髋俯仰/膝；头部前端为半球形4D广角激光雷达L2（360°×96°，最显眼特征）+广角相机+前照灯；躯干为扁长方体上表面弧形；四腿为两段式扁平连杆，膝关节内走线无外露线缆；足端小半球橡胶垫；黑色主体+银白灰装饰件+蓝色状态灯"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Unitree Go2 of Salvamont side view.jpg", "role": "reference", "license": "CC BY 3.0", "credit": "Salvamont / Wikimedia Commons" },
+        { "src": "commons", "file": "File:Unitree robot dog - Romanian Land Forces Day 2023.jpg", "role": "reference", "license": "Public domain", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "printed-chair",
+      "real": {
+        "name": "Maker Chair (Puzzle) 3D打印拼图椅",
+        "en": "Joris Laarman Lab, Maker Chair (Puzzle), 2014",
+        "museum": "Cooper Hewitt / NGV / MAD 均有藏",
+        "era": "2014",
+        "dims_mm": { "h": 780, "w": 540, "d": 650, "seat_h": 430 },
+        "form": "整椅由上百块可拼合的立体拼图块组成，每块为不规则曲面多面体，块与块之间有可见分缝线——应做外壳曲面+分块凹槽而非平滑连续面；椅背与坐面为一整片连续S形曲壳，向下延伸成四条锥形收细的椅腿，腿与壳体过渡无明显接缝；ABS哑光略带层纹"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Joris laarman per joris laarman lab, sedia makerchair (puzzle), 2014.jpg", "role": "reference", "license": "CC BY 3.0", "credit": "Wikimedia Commons" }
+      ]
+    },
+    {
+      "id": "lattice-table",
+      "real": {
+        "name": "3D打印渐变混凝土茶几",
+        "en": "Gradient Coffee Table (Philipp Aduatz × incremental3d, 2021) 形制",
+        "museum": "限量 50+2AP",
+        "era": "2021",
+        "dims_mm": { "h": 450, "w": 1490, "d": 560, "layer_h": 8 },
+        "form": "桌体由连续水平打印层条堆叠而成，层高均匀约5-10mm，层与层轮廓渐变错位形成等高线外观——应用等高线堆叠而非光滑实体；整体为低矮长条形雕塑体，侧立面呈波浪扭转，底部与地面接触面收窄；颜色渐变在单件内从一端色相平滑过渡到另一端；混凝土哑光粗糙质感，可见挤出料条的圆弧截面",
+        "note": "Commons 无该作品合规图源，走程序化材质"
+      },
+      "refs": [
+        { "src": "commons", "file": "File:Wooven Table printed on a BigRep.jpg", "role": "reference", "license": "CC BY 2.0", "credit": "Wikimedia Commons" }
+      ]
+    }
+  ]
+}

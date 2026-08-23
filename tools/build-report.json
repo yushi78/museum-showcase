@@ -1,0 +1,250 @@
+[
+  {
+    "hall": "modern",
+    "id": "concept-car",
+    "tris": 3608,
+    "kb": 212.2,
+    "size": "4.72 × 1.51 × 2.14",
+    "ms": 128
+  },
+  {
+    "hall": "modern",
+    "id": "evtol-aircraft",
+    "tris": 4708,
+    "kb": 227.3,
+    "size": "5.13 × 1.57 × 3.24",
+    "ms": 132
+  },
+  {
+    "hall": "modern",
+    "id": "smart-watch",
+    "tris": 2752,
+    "kb": 166.1,
+    "size": "0.22 × 0.36 × 0.26",
+    "ms": 96
+  },
+  {
+    "hall": "modern",
+    "id": "ar-glasses",
+    "tris": 1796,
+    "kb": 158.4,
+    "size": "0.2 × 0.22 × 0.23",
+    "ms": 37
+  },
+  {
+    "hall": "modern",
+    "id": "humanoid-robot",
+    "tris": 12476,
+    "kb": 1047.1,
+    "size": "0.62 × 1.71 × 0.4",
+    "ms": 167
+  },
+  {
+    "hall": "modern",
+    "id": "robot-dog",
+    "tris": 8776,
+    "kb": 711.4,
+    "size": "1.06 × 0.82 × 0.49",
+    "ms": 148
+  },
+  {
+    "hall": "modern",
+    "id": "printed-chair",
+    "tris": 2984,
+    "kb": 373.5,
+    "size": "0.51 × 0.99 × 0.67",
+    "ms": 87
+  },
+  {
+    "hall": "modern",
+    "id": "lattice-table",
+    "tris": 15792,
+    "kb": 1628.1,
+    "size": "1.42 × 0.44 × 1.28",
+    "ms": 227
+  },
+  {
+    "hall": "classical",
+    "id": "bronze-fangding",
+    "tris": 1816,
+    "kb": 127.6,
+    "size": "0.48 × 0.85 × 0.48",
+    "ms": 33
+  },
+  {
+    "hall": "classical",
+    "id": "bianzhong",
+    "tris": 29640,
+    "kb": 1171.8,
+    "size": "2.25 × 1.79 × 0.5",
+    "ms": 181
+  },
+  {
+    "hall": "classical",
+    "id": "jade-cong",
+    "tris": 1212,
+    "kb": 135.6,
+    "size": "0.28 × 0.47 × 0.28",
+    "ms": 27
+  },
+  {
+    "hall": "classical",
+    "id": "oracle-bone",
+    "tris": 2288,
+    "kb": 312,
+    "size": "0.36 × 0.54 × 0.34",
+    "ms": 53
+  },
+  {
+    "hall": "classical",
+    "id": "greek-amphora",
+    "tris": 3040,
+    "kb": 103.6,
+    "size": "0.32 × 0.98 × 0.32",
+    "ms": 22
+  },
+  {
+    "hall": "classical",
+    "id": "yuan-blue-vase",
+    "tris": 3080,
+    "kb": 98.1,
+    "size": "0.38 × 0.79 × 0.36",
+    "ms": 22
+  },
+  {
+    "hall": "classical",
+    "id": "chenghua-chicken-cup",
+    "tris": 2280,
+    "kb": 77.3,
+    "size": "0.15 × 0.09 × 0.14",
+    "ms": 16
+  },
+  {
+    "hall": "classical",
+    "id": "tang-silver-ewer",
+    "tris": 3500,
+    "kb": 112.5,
+    "size": "0.38 × 0.47 × 0.23",
+    "ms": 29
+  },
+  {
+    "hall": "classical",
+    "id": "jade-imperial-seal",
+    "tris": 2500,
+    "kb": 85.5,
+    "size": "0.38 × 0.22 × 0.25",
+    "ms": 30
+  },
+  {
+    "hall": "classical",
+    "id": "dragon-robe",
+    "tris": 5924,
+    "kb": 219.5,
+    "size": "1.51 × 1.7 × 0.73",
+    "ms": 47
+  },
+  {
+    "hall": "classical",
+    "id": "phoenix-crown",
+    "tris": 11022,
+    "kb": 462.4,
+    "size": "0.41 × 0.43 × 0.41",
+    "ms": 49
+  },
+  {
+    "hall": "natural",
+    "id": "mamenchisaurus",
+    "tris": 20080,
+    "kb": 1114.6,
+    "size": "19.3 × 5.14 × 2.6",
+    "ms": 221
+  },
+  {
+    "hall": "natural",
+    "id": "mammoth",
+    "tris": 9320,
+    "kb": 698.6,
+    "size": "7.43 × 3.5 × 2.69",
+    "ms": 96
+  },
+  {
+    "hall": "natural",
+    "id": "trilobite-fossil",
+    "tris": 5114,
+    "kb": 258.6,
+    "size": "0.56 × 0.18 × 0.46",
+    "ms": 37
+  },
+  {
+    "hall": "natural",
+    "id": "fish-fossil",
+    "tris": 2584,
+    "kb": 276.4,
+    "size": "0.62 × 0.15 × 0.36",
+    "ms": 39
+  },
+  {
+    "hall": "natural",
+    "id": "petrified-wood",
+    "tris": 2168,
+    "kb": 131.9,
+    "size": "1.02 × 1.82 × 1",
+    "ms": 27
+  },
+  {
+    "hall": "natural",
+    "id": "meteorite",
+    "tris": 6304,
+    "kb": 286.4,
+    "size": "0.8 × 0.59 × 0.68",
+    "ms": 46
+  },
+  {
+    "hall": "natural",
+    "id": "basalt-columns",
+    "tris": 2288,
+    "kb": 244.2,
+    "size": "1.95 × 1.42 × 1.96",
+    "ms": 43
+  },
+  {
+    "hall": "natural",
+    "id": "siberian-tiger",
+    "tris": 7128,
+    "kb": 410.7,
+    "size": "3.36 × 1.62 × 3.02",
+    "ms": 51
+  },
+  {
+    "hall": "natural",
+    "id": "giant-panda",
+    "tris": 9492,
+    "kb": 538.2,
+    "size": "2.63 × 2.39 × 2.6",
+    "ms": 47
+  },
+  {
+    "hall": "natural",
+    "id": "golden-monkey",
+    "tris": 7156,
+    "kb": 456.3,
+    "size": "2.17 × 1.67 × 2.18",
+    "ms": 54
+  },
+  {
+    "hall": "natural",
+    "id": "specimen-jar",
+    "tris": 3110,
+    "kb": 131.8,
+    "size": "0.54 × 0.75 × 0.54",
+    "ms": 28
+  },
+  {
+    "hall": "natural",
+    "id": "insect-case",
+    "tris": 14928,
+    "kb": 880.6,
+    "size": "1.05 × 0.84 × 0.47",
+    "ms": 152
+  }
+]
