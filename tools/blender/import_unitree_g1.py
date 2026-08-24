@@ -69,5 +69,12 @@ for obj in objects:
     obj.select_set(False)
 min_z=min((o.matrix_world @ Vector(c)).z for o in objects for c in o.bound_box)
 for o in objects: o.location.z-=min_z
+# 宇树 URDF 前=+X，展品约定前=+Z；整体绕 Z 转 -90° 让「前」朝 +Z（glTF y-up 下即绕 Y 转 -90°）
+import math
+for o in objects:
+    o.select_set(True); bpy.context.view_layer.objects.active=o
+    o.rotation_euler=(0,0,-math.pi/2)
+    bpy.ops.object.transform_apply(location=False,rotation=True,scale=False)
+    o.select_set(False)
 export_glb(OUT)
 print('official Unitree G1 exported:',OUT,'objects=',len(objects))

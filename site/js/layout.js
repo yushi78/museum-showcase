@@ -135,6 +135,8 @@ export async function placeExhibits({ tpl, hall, exhibits, accent = '#2f6df6', o
     const inner = new THREE.Group();
     scene.position.set(-ctr.x, -raw.min.y, -ctr.z);      // 归到「中心-底面」姿态
     inner.add(scene);
+    // 个别原始资产的正前方轴与展厅 +Z 约定不同，只修正模型，不影响展台与展签。
+    inner.rotation.y = exhibit.displayYaw || 0;
     inner.scale.setScalar(s);
 
     const wrap = new THREE.Group();

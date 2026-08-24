@@ -169,6 +169,7 @@ export const EXHIBITS = [
   },
   {
     id: 'humanoid-robot', hall: 'modern', tier: 1, size: 1.75,
+    displayYaw: -Math.PI / 2,
     name: '宇树 G1 人形机器人', en: 'Unitree G1 Humanoid Robot',
     era: '2024 年', material: '航空铝关节电机 · 白色银灰壳体 · 外露扁圆柱驱动器',
     category: '仿生机器人',
